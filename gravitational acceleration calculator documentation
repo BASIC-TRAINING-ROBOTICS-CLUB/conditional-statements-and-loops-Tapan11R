@@ -1,0 +1,17 @@
+Overview: The Gravity Calculator class calculates the acceleration due to gravity at a given height above Earth's surface using the gravitational force formula. It incorporates the universal gravitational constant, Earth's mass, and Earth's radius to determine the gravitational acceleration.
+
+formulas: Uses  g=G.M/(R+height)^2 formula to calculate acceleration
+
+
+
+process: Calculates the acceleration due to gravity at a specified height above Earth's surface by using above formula taken in class with double datatype
+
+
+height: Height above the Earth's surface in meters.
+Returns: Gravitational acceleration in m/s².
+Error Handling: If height is negative, it displays an error message and returns 0
+
+problem faced: 1. error in return when height is negative.
+               2. had to find suitable datatype 
+               3. problem implementing formula in code 
+               4. error while using universal values(G,M,R)
